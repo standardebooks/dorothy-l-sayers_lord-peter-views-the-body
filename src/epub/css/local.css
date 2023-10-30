@@ -1,2 +1,69 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+#the-fascinating-problem-of-uncle-meleagers-will table{
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	width: 100%;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will table td{
+	/* border-color: black;
+	border-style: solid;
+	border-width: 1px; */
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	vertical-align: top;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will td:first-child{
+	text-align: center;
+	width: 15%;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will td:last-child{
+	width: 65%;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will td blockquote{
+	margin: 0;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will div header{
+	font-style: italic;
+	margin-top: 1em;
+	text-align: center;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
