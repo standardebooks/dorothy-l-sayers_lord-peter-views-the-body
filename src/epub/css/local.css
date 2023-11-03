@@ -39,6 +39,17 @@
 	text-align: center;
 }
 
+#the-undignified-melodrama-of-the-bone-of-contention blockquote{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#the-undignified-melodrama-of-the-bone-of-contention blockquote p{
+	text-indent: 0;
+	text-align: center;
+	font-variant: all-small-caps;
+}
+
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
