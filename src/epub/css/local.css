@@ -68,6 +68,22 @@
 	text-align: right;
 }
 
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote:nth-of-type(5){
+	font-variant: none;
+	text-align: initial;
+}
+
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote:nth-of-type(5) p:last-of-type{
+	text-align: center;
+	text-indent: 0;
+}
+
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
