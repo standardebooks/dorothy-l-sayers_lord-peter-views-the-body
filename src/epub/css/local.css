@@ -84,6 +84,16 @@
 	text-indent: 0;
 }
 
+#the-adventurous-exploit-of-the-cave-of-ali-baba blockquote:first-of-type p{
+	font-variant: small-caps;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+#the-adventurous-exploit-of-the-cave-of-ali-baba blockquote:first-of-type p:last-of-type{
+	padding-bottom: 0;
+}
+
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
