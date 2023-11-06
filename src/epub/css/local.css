@@ -11,9 +11,6 @@
 }
 
 #the-fascinating-problem-of-uncle-meleagers-will table td{
-	/* border-color: black;
-	border-style: solid;
-	border-width: 1px; */
 	margin-bottom: 0.5em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
@@ -37,6 +34,7 @@
 	font-style: italic;
 	margin-top: 1em;
 	text-align: center;
+	text-indent: 0;
 }
 
 #the-undignified-melodrama-of-the-bone-of-contention blockquote{
@@ -53,6 +51,9 @@
 #the-bibulous-business-of-a-matter-of-taste blockquote{
 	padding-left: auto;
 	padding-right: auto;
+}
+
+#the-bibulous-business-of-a-matter-of-taste blockquote p{
 	text-align: center;
 	text-indent: 0;
 }
@@ -66,9 +67,10 @@
 	padding-left: auto;
 	padding-right: auto;
 	text-align: right;
+	text-indent: 0;
 }
 
-#the-unsolved-puzzle-of-the-man-with-no-face blockquote{
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote p{
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
@@ -88,6 +90,7 @@
 	font-variant: small-caps;
 	padding-bottom: 0.5em;
 	text-align: center;
+	text-indent: 0;
 }
 
 #the-adventurous-exploit-of-the-cave-of-ali-baba blockquote:first-of-type p:last-of-type{
@@ -112,47 +115,21 @@
 	display: none;
 }
 
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
 
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 /* letter styling */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-align: initial;
-	text-indent: 0;
 }
 
 /* figure styling */
