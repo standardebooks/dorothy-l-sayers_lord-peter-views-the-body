@@ -3,17 +3,12 @@
 
 #the-fascinating-problem-of-uncle-meleagers-will table{
 	border-collapse: collapse;
-	margin-bottom: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
+	margin: 1em auto;
 	width: 100%;
 }
 
 #the-fascinating-problem-of-uncle-meleagers-will table td{
-	margin-bottom: 0.5em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding: .25em;
 	vertical-align: top;
 }
 
@@ -22,52 +17,35 @@
 	width: 15%;
 }
 
-#the-fascinating-problem-of-uncle-meleagers-will td:last-child{
-	width: 65%;
-}
-
 #the-fascinating-problem-of-uncle-meleagers-will td blockquote{
 	margin: 0;
 }
 
-#the-fascinating-problem-of-uncle-meleagers-will div header{
+#the-fascinating-problem-of-uncle-meleagers-will th{
 	font-style: italic;
-	margin-top: 1em;
+	font-weight: normal;
 	text-align: center;
-	text-indent: 0;
+}
+
+#the-fascinating-problem-of-uncle-meleagers-will section > footer{
+	text-align: center;
 }
 
 #the-undignified-melodrama-of-the-bone-of-contention blockquote{
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-}
-
-#the-undignified-melodrama-of-the-bone-of-contention blockquote p{
 	font-variant: all-small-caps;
 	text-align: center;
-	text-indent: 0;
 }
 
 #the-bibulous-business-of-a-matter-of-taste blockquote{
-	padding-left: auto;
-	padding-right: auto;
-}
-
-#the-bibulous-business-of-a-matter-of-taste blockquote p{
 	text-align: center;
-	text-indent: 0;
-}
-
-#the-bibulous-business-of-a-matter-of-taste blockquote p:first-of-type{
-	font-variant: small-caps;
 }
 
 #the-bibulous-business-of-a-matter-of-taste blockquote:first-of-type{
-	max-width: 55%;
-	padding-left: auto;
-	padding-right: auto;
-	text-align: right;
-	text-indent: 0;
+	font-variant: small-caps;
+}
+
+#the-bibulous-business-of-a-matter-of-taste blockquote p + p{
+	margin-top: 1em;
 }
 
 #the-unsolved-puzzle-of-the-man-with-no-face blockquote p{
@@ -76,8 +54,16 @@
 	text-indent: 0;
 }
 
-#the-unsolved-puzzle-of-the-man-with-no-face blockquote:nth-of-type(5){
-	font-variant: none;
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote:nth-of-type(4) p + p::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	margin: .5em auto;
+	width: 3em;
+}
+
+#the-unsolved-puzzle-of-the-man-with-no-face blockquote:nth-of-type(5) p{
+	font-variant: initial;
 	text-align: initial;
 }
 
@@ -86,15 +72,10 @@
 	text-indent: 0;
 }
 
-#the-adventurous-exploit-of-the-cave-of-ali-baba blockquote:first-of-type p{
+#the-adventurous-exploit-of-the-cave-of-ali-baba blockquote header{
 	font-variant: small-caps;
-	padding-bottom: 0.5em;
+	margin-bottom: 1em;
 	text-align: center;
-	text-indent: 0;
-}
-
-#the-adventurous-exploit-of-the-cave-of-ali-baba blockquote:first-of-type p:last-of-type{
-	padding-bottom: 0;
 }
 
 [epub|type~="z3998:song"] p,
