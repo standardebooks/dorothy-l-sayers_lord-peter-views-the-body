@@ -27,7 +27,7 @@
 	text-align: center;
 }
 
-#the-fascinating-problem-of-uncle-meleagers-will section > footer{
+#the-fascinating-problem-of-uncle-meleagers-will > footer{
 	text-align: center;
 }
 
@@ -46,6 +46,7 @@
 
 #the-bibulous-business-of-a-matter-of-taste blockquote p + p{
 	margin-top: 1em;
+	text-indent: 0;
 }
 
 #the-unsolved-puzzle-of-the-man-with-no-face blockquote p{
@@ -116,6 +117,8 @@ footer{
 /* figure styling */
 figure{
 	break-inside: avoid;
+	margin: 1em 40px;
+	text-align: center;
 }
 
 figure img{

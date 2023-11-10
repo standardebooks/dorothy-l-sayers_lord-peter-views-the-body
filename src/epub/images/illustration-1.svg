@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" version="1.1" xml:space="preserve" viewBox="0 0 1004 976">
-	<title>A crossword puzzle grid with rows numbered with Arabic numerals and columns numbered with Roman numerals. Most cells are black or white, but some additional reddish cells create a square pattern mid-way to the center of the puzzle.</title>
+	<title>A crossword puzzle grid with rows numbered with Arabic numerals and columns numbered with Roman numerals. Most cells are black or white, but some additional reddish cells create a square pattern midway to the center of the puzzle.</title>
 	<g fill="#fff" stroke="#000" stroke-width="6.25px">
 		<rect height="64.214" width="64.214" x="45.728" y="40.212"/>
 		<rect height="64.214" width="64.214" x="109.29" y="40.212"/>
