@@ -67,8 +67,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Dorothy_L._Sayers</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79046044</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<dc:contributor id="artist">Leonard Campbell Taylor</dc:contributor>
 		<meta property="file-as" refines="#artist">Taylor, Leonard Campbell</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Leonard_Campbell_Taylor</meta>
