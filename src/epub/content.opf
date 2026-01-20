@@ -57,7 +57,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/lordpeterviewsbo0000doro</dc:source>
 		<meta property="se:production-notes">Some instances of mismatched dashes are left as-is as they are quoted from telegrams in which puncuation was not typically included. Mismatched diacritics on French appear to be grammatically correct.</meta>
-		<meta property="se:word-count">96263</meta>
+		<meta property="se:word-count">93544</meta>
 		<meta property="se:reading-ease.flesch">75.2</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Lord_Peter_Views_the_Body</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_lord-peter-views-the-body</meta>
