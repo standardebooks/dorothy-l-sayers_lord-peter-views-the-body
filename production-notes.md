@@ -1,0 +1,1 @@
+Some instances of mismatched dashes are left as-is as they are quoted from telegrams in which puncuation was not typically included. Mismatched diacritics on French appear to be grammatically correct.
