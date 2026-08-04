@@ -50,7 +50,7 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">5</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of short stories in which an aristocratic amateur detective solves a variety of crimes.</dc:abstract>
+		<meta property="schema:abstract">A collection of short stories in which an aristocratic amateur detective solves a variety of crimes.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Lord Peter Views the Body&lt;/i&gt; is the first collection of short stories by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; featuring the aristocratic sleuth &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey&lt;/a&gt;. The character of Wimsey had become so popular that Sayers started writing short stories about him, which were then published in magazines like &lt;i&gt;Pearson’s&lt;/i&gt;.&lt;/p&gt;
 			&lt;p&gt;There are twelve stories in this collection about mysteries as varied as the consequences of several peculiar wills, to the hazardous breakup of a secret society.&lt;/p&gt;
